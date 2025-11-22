@@ -1,0 +1,26 @@
+Started by user [8mha:////4JdHa/poMpnZvlL4i2ToNEtAnB35KHAIUfo9VFTwA3b+AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace C:\Users\Nour\.jenkins\workspace\JobFree
+The recommended git tool is: NONE
+using credential e6800af4-2260-4831-8add-bf1c781e77ea
+ > git.exe rev-parse --resolve-git-dir C:\Users\Nour\.jenkins\workspace\JobFree\.git # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/nourelhoudajeddi/DevopsTest.git # timeout=10
+Fetching upstream changes from https://github.com/nourelhoudajeddi/DevopsTest.git
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.44.0.windows.1'
+using GIT_ASKPASS to set credentials 
+ > git.exe fetch --tags --force --progress -- https://github.com/nourelhoudajeddi/DevopsTest.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision dd9bcbd2fc43a53a1442f20c6c7de7ca29a2a5d6 (refs/remotes/origin/main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f dd9bcbd2fc43a53a1442f20c6c7de7ca29a2a5d6 # timeout=10
+Commit message: "Delete OneDrive/Desktop/Atelier QT directory"
+ > git.exe rev-list --no-walk dd9bcbd2fc43a53a1442f20c6c7de7ca29a2a5d6 # timeout=10
+[JobFree] $ cmd /c call C:\Users\Nour\AppData\Local\Temp\jenkins407479172934290938.bat
+
+C:\Users\Nour\.jenkins\workspace\JobFree>echo "c'est mon premier freestyle jenkins!" 
+"c'est mon premier freestyle jenkins!"
+
+C:\Users\Nour\.jenkins\workspace\JobFree>exit 0 
+Finished: SUCCESS

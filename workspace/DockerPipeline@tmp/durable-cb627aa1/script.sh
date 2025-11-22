@@ -1,0 +1,1 @@
+docker build -t nourelhoudajeddi/alpine:1.0.0 .
